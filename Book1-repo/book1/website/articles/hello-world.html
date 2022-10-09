@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- this is the "introduction" page aka the exercises -->
+    <meta charset="utf-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="/book1/website/index.css">
+  </head>
+  <body>
+    <p style="text-align:center"><strong>Index</strong></p>
+<div style="text-align:center">
+<a href="#brief">Briefing</a> <a href="#history">History</a> <a href="#TimeToHelloWorld">Time-To-Hello-World</a>
+</div>
+<hr>
+    <div>
+      <table class="nav" id="top">
+        <thead>
+          <th><a href="/book1/website/index.html">Home</a></th>
+          <th><a href="/book1/website/articles.html">Article</a></th>
+          <th><a href="/book1/website/poems.html">Poems</a></th>
+          <th>Gallery</th>
+          <th>About</th>
+        </thead>
+      </table>
+    </div>
+    <article>
+      <section>
+        <h1 style="text-align: center;" id="brief">
+          Hello World!
+        </h1>
+        <p>
+          A "Hello World!" program is generally a computer program that ignores any input and outputs or displays a message similar to "Hello, World!". A small piece of code in most general-purpose programming languages, this program is used to illustrate a language's basic syntax.
+        </p>
+        <aside class="img right">
+          <img src="ello wrold.png" alt="helloworld.png" width="250" height="200">
+        </aside>
+        <p>
+          "Hello World!" programs, <br> are often the first thing a student learns to write in a given language, and they can also be used as a sanity check to ensure computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it. <hr>
+        </p>
+      </section>
+      <section>
+        <header>
+          <h3 id="history">History</h3>
+        </header>
+        <p>
+          While small test programs have existed since the development of programmable computers, the tradition of using the phrase "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language, but there is no evidence that it originated there, and it is very likely it was used in BCPL beforehand (as below). <a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program" target="_blank">Wikipedia</a><hr>
+        </p>
+        <aside class="addright">
+          <h3>Further Sources</h3>
+          <nav>
+            <ul>
+              <li><a href="http://helloworldcollection.de/" target="_blank">Rösler, Wolfram, helloworldcollection.de</a></li>
+              <ul style="font-size: 10px; list-style-type: square;">
+                <li>some links may be broken, please refer to the <a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program" target="_blank">Wikipedia</a> page for working links</li>
+              </ul>
+              <li><a href="https://rosettacode.org/wiki/Hello_world/Text" target="_blank">Rosetta Code</a></li>
+              <li><a href="https://github.com/leachim6/hello-world" target="_blank">GituHub - leachim6/hello-world</a></li>
+              <li><a href="https://web.archive.org/web/20160326193543/http://theunsungheroesofit.com/helloworld/" target="_blank">Unsung Heroes of IT / Part One: Brian Kernighan</a></li>
+            </ul>
+          </nav>
+        </aside>
+      </section>
+      <section>
+        <h3 id="TimeToHelloWorld">Time to Hello World</h3>
+          <p>"Time to hello world" (TTHW) is the time it takes to author a "Hello World!" program in a given programming language. This is one measure of a programming language's ease-of-use; since the program is meant as an introduction for people unfamiliar with the language, a more complex "Hello, World!" program may indicate that the programming language is less approachable. The concept has been extended beyond programming languages to APIs, as a measure of how simple it is for a new developer to get a basic example working; a shorter time indicates an easier API for developers to adopt.</p>
+      </section>
+    </article>  
+    <footer>
+      <br><br>
+      <p>&copy; stealingcontenteveryday Corp. All rights stolen.<br>
+      For Copyright Issues Please Contact:<br>
+        <adress>
+          Earth, Night Section,<br>
+          3rd order<br>
+          Milky Way Galaxy, 2022<br>
+          <a href="mailto:pleasepress1formessages@stealingcontenteveryday.com" target="_blank">pleasepress1formessages@stealingcontenteveryday.com</a>
+        </adress>
+      </p>
+      <script>
+        now = new Date();
+        localtime = now.toString();
+        utctime = now.toGMTString();
+        document.write("<p><strong>Local Time: </strong>"+ localtime +"</p>");
+        document.write("<p><strong>UTC Time: </strong>"+ utctime +"</p>");
+        hours = now.getHours();
+        mins = now.getMinutes();
+        secs = now.getSeconds();
+        milis = now.getMilliseconds();
+        document.write("<h2>" + hours + ":" + mins + ":" + secs + ":" + milis + "</h2>");
+        console.log("logging on the console");
+      </script>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- this is the "introduction" page aka the exercises -->
+    <meta charset="utf-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="/book1/website/index.css">
+  </head>
+  <body>
+    <div>
+      <ul>
+        Things to have:
+        <li>Hello_world</li>
+        <li>what this</li>
+        <li>why</li>
+        <li>when</li>
+        <li>cat pics</li>
+        <li>history</li>
+      </ul>
+    </div>
+    <div>
+      <table class="nav" id="top">
+        <thead>
+          <th><a href="/book1/website/index.html">Home</a></th>
+          <th><a href="/book1/website/articles.html">Article</a></th>
+          <th><a href="/book1/website/poems.html">Poems</a></th>
+          <th>Gallery</th>
+          <th>About</th>
+        </thead>
+      </table>
+    </div>
+    <article>
+      <h1>Hellow!</h1>
+      <p>Welcome!<br>I am a person on the internet, and welcome to my very secret website that i dont host on the internet because thats to much of a hassle!</p>
+      <p>Here, i can write anything, my interest, my hobbies, my families, my non-existent cat. Anything!</p>
+      <p>But it will be mostly cat pictures so enjoy yourself!</p>
+      <img src="/book1/website/cat1.jpeg" width="350" height="200" alt="">
+    </article>  
+    <footer>
+      <br><br>
+      <p>&copy; stealingcontenteveryday Corp. All rights stolen.<br>
+      For Copyright Issues Please Contact:<br>
+        <adress>
+          Earth, Night Section,<br>
+          3rd order<br>
+          Milky Way Galaxy, 2022<br>
+          <a href="mailto:pleasepress1formessages@stealingcontenteveryday.com" target="_blank">pleasepress1formessages@stealingcontenteveryday.com</a>
+        </adress>
+      </p>
+      <script>
+        now = new Date();
+        localtime = now.toString();
+        utctime = now.toGMTString();
+        document.write("<p><strong>Local Time: </strong>"+ localtime +"</p>");
+        document.write("<p><strong>UTC Time: </strong>"+ utctime +"</p>");
+        hours = now.getHours();
+        mins = now.getMinutes();
+        secs = now.getSeconds();
+        milis = now.getMilliseconds();
+        document.write("<h2>" + hours + ":" + mins + ":" + secs + ":" + milis + "</h2>");
+        console.log("logging on the console");
+      </script>
+    </footer>
+  </body>
+</html>

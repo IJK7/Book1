@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- this is the "introduction" page aka the exercises -->
+    <meta charset="utf-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="/book1/website/index.css">
+  </head>
+  <body>
+    </div>
+    <div>
+      <table class="nav" id="top">
+        <thead>
+          <th><a href="/book1/website/index.html">Home</a></th>
+          <th><a href="/book1/website/articles.html">Article</a></th>
+          <th><a href="/book1/website/poems.html">Poems</a></th>
+          <th>Gallery</th>
+          <th>About</th>
+        </thead>
+      </table>
+    </div>
+    <article>
+      <p>My Favorite Links</p>
+      <ul>
+        <img src="/book1/website/TotK_Link_Model.png" alt="link1">
+        <li><a href="https://asura.gg/" target="_blank">Asura Scans</a></li>
+        <li><a href="https://reaperscans.com">Reaper Scans</a></li>
+      </ul>
+    </article>  
+    <footer>
+      <br><br>
+      <p>&copy; stealingcontenteveryday Corp. All rights stolen.<br>
+      For Copyright Issues Please Contact:<br>
+        <adress>
+          Earth, Night Section,<br>
+          3rd order<br>
+          Milky Way Galaxy, 2022<br>
+          <a href="mailto:pleasepress1formessages@stealingcontenteveryday.com" target="_blank">pleasepress1formessages@stealingcontenteveryday.com</a>
+        </adress>
+      </p>
+      <script>
+        now = new Date();
+        localtime = now.toString();
+        utctime = now.toGMTString();
+        document.write("<p><strong>Local Time: </strong>"+ localtime +"</p>");
+        document.write("<p><strong>UTC Time: </strong>"+ utctime +"</p>");
+        hours = now.getHours();
+        mins = now.getMinutes();
+        secs = now.getSeconds();
+        milis = now.getMilliseconds();
+        document.write("<h2>" + hours + ":" + mins + ":" + secs + ":" + milis + "</h2>");
+        console.log("logging on the console");
+      </script>
+    </footer>
+  </body>
+</html>
